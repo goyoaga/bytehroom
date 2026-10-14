@@ -1,13 +1,5 @@
-LightCraft app icon (lightcraft.svg and every file derived from it in this directory:
-lightcraft-small.svg, lightcraft-1024.png, lightcraft-macos-512.png, lightcraft.icns,
-lightcraft.ico, hicolor/).
+The Bytehroom name, wordmark and seven-hexagon mark are brand assets supplied by the Bytehroom project owner.
+They are not covered by the software licences in LICENSE-MIT or LICENSE-APACHE.
 
-Original artwork made for this project by the LightCraft project owner in ArtCraft (no
-third-party material). Licensed like the rest of LightCraft, under either of
-
-  * Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
-  * MIT license (https://opensource.org/licenses/MIT)
-
-at your option.
-
-Regenerate the derived files with packaging/icons.sh.
+They may be used unmodified in this repository and in official builds of Bytehroom. Other use requires permission
+from the Bytehroom project owner. See assets/brand/LICENSE-brand.txt.

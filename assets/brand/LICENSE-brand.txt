@@ -1,0 +1,8 @@
+Bytehroom brand assets
+
+The Bytehroom name, wordmark and seven-hexagon mark are owned by the Bytehroom project owner. They are brand assets,
+not open-source software, and are not covered by LICENSE-MIT or LICENSE-APACHE.
+
+Permission is granted to use these assets unmodified in this repository and in official Bytehroom builds,
+documentation and project pages. They must not be used to imply sponsorship, endorsement or affiliation with an
+unrelated product or organization. All other uses require permission from the Bytehroom project owner.

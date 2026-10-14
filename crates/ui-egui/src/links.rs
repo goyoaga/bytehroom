@@ -2,11 +2,11 @@
 
 /// The app's public repository name.
 pub const APP: &str = "bytehroom";
-/// The ArtCraft community Discord.
-pub const DISCORD: &str = "https://discord.gg/artcraft";
-/// The ArtCraft website.
-pub const WEBSITE: &str = "https://getartcraft.com";
-/// This app's page on the ArtCraft website.
+/// The project's community discussions.
+pub const DISCORD: &str = "https://github.com/goyoaga/bytehroom/discussions";
+/// The project's public home.
+pub const WEBSITE: &str = "https://github.com/goyoaga/bytehroom";
+/// This app's public project page.
 pub const APP_PAGE: &str = "https://github.com/goyoaga/bytehroom";
 /// This app's source repository.
 pub const GITHUB: &str = "https://github.com/goyoaga/bytehroom";
@@ -17,10 +17,10 @@ pub const HELP: &str = "https://github.com/goyoaga/bytehroom/tree/main/docs";
 
 pub const LINKS: &[(&str, &str, &str)] = &[
     ("app.help", "Bytehroom Help", HELP),
-    ("app.discord", "Join the ArtCraft Discord…", DISCORD),
+    ("app.discord", "Bytehroom Discussions…", DISCORD),
     ("app.website", "Bytehroom Website", APP_PAGE),
     ("app.github", "Bytehroom on GitHub", GITHUB),
-    ("app.artcraft", "ArtCraft Website", WEBSITE),
+    ("app.artcraft", "Bytehroom Repository", WEBSITE),
     ("app.feedback", "Send Feedback…", FEEDBACK),
 ];
 
