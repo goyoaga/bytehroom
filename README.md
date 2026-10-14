@@ -1,14 +1,4 @@
-<p align="center">
-  <a href="https://getartcraft.com/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/brand/artcraft-logo-white.svg">
-      <img alt="ArtCraft" src="docs/brand/artcraft-logo.svg" width="200">
-    </picture>
-  </a>
-</p>
-
-
-<h1 align="center">LightCraft</h1>
+<h1 align="center">Bytehroom</h1>
 
 <h3 align="center">Your photos. Your pixels. Your machine.</h3>
 
@@ -31,26 +21,25 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/artcraft"><img alt="Join the ArtCraft community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+  <a href="https://github.com/goyoaga/bytehroom"><img alt="Bytehroom on GitHub" src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40"></a>
 </p>
 
 <p align="center">
-  <a href="https://getartcraft.com/apps/lightcraft"><b>LightCraft on getartcraft.com</b></a> ·
-  <a href="https://getartcraft.com/">ArtCraft</a> ·
-  <a href="https://getartcraft.com/apps">All Crafting Apps</a>
+  <a href="https://github.com/goyoaga/bytehroom"><b>Bytehroom source repository</b></a> ·
+  Based on <a href="https://github.com/storytold/lightcraft">LightCraft</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="docs/images/hero-tetons.jpg" alt="LightCraft's Edit view with Ansel Adams' The Tetons and the Snake River in the loupe, the Light and Effects panels open on the right, and the four showcase photos in the filmstrip" width="100%">
+  <img src="docs/images/hero-tetons.jpg" alt="Bytehroom's Edit view with Ansel Adams' The Tetons and the Snake River in the loupe, the Light and Effects panels open on the right, and the four showcase photos in the filmstrip" width="100%">
   <br>
   <sub><i>Ansel Adams, "The Tetons and the Snake River" (1942). Public domain, U.S. National Archives. Developed in LightCraft.</i></sub>
 </p>
 
 > [!NOTE]
-> **ArtCraft is a community of artists from all walks of life.** Digital, generative, music,
-> games &mdash; if you make things, you're one of us. **[Come say hi on Discord](https://discord.gg/artcraft).**
+> **Bytehroom is an independent fork of [LightCraft](https://github.com/storytold/lightcraft).**
+> The original copyright notices and open-source licences are preserved.
 
 <p align="center">
   <a href="#edit-like-you-mean-it">Editing</a> ·
@@ -72,7 +61,7 @@
 
 ## Edit like you mean it
 
-LightCraft is a complete darkroom in a single native app. Every adjustment is **non-destructive**, so your originals
+Bytehroom is a complete darkroom in a single native app. Every adjustment is **non-destructive**, so your originals
 are never touched. Every slider renders through a **scene-referred, wide-gamut, 32-bit float pipeline**: highlights
 roll off like film, shadows open up without halos, and colour stays clean from capture to export.
 
@@ -352,7 +341,7 @@ LightCraft is young and moving fast: **alpha**. **Where we honestly stand** (det
 Workspace builds, including the desktop, web and CLI applications, require Rust 1.95 or newer.
 
 ```sh
-git clone https://github.com/storytold/lightcraft && cd lightcraft
+git clone https://github.com/goyoaga/bytehroom && cd bytehroom
 cargo run --release -p lightcraft                       # opens your library (~/Pictures/LightCraft Library; a new one starts with demo photos)
 cargo run --release -p lightcraft -- ~/Pictures/trip    # import your photos (folders are scanned, duplicates skipped)
 cargo run --release -p lightcraft -- --memory           # a throwaway in-memory demo session (writes nothing)

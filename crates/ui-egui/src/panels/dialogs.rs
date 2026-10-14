@@ -261,7 +261,7 @@ pub fn show(app: &mut LightcraftApp, ctx: &egui::Context) {
         // (nothing to download from in this build: the dialog explains the manual install)
         Dialog::SamModel { .. } if sam_by_hand(&app.session.segmenter) => "Install the SAM 3 Model",
         Dialog::SamModel { .. } => "Download the SAM 3 Model?",
-        Dialog::About => "About LightCraft",
+        Dialog::About => "About Bytehroom",
         Dialog::Shortcuts => "Keyboard Shortcuts",
     }
     .to_string();
@@ -1162,7 +1162,7 @@ pub fn show(app: &mut LightcraftApp, ctx: &egui::Context) {
                         1 => crate::credits::contributors_ui(app, ui),
                         2 => crate::credits::models_ui(ui),
                         _ => {
-                            ui.label(egui::RichText::new("LightCraft").font(t.semibold(20.0)).color(t.text));
+                            ui.label(egui::RichText::new("Bytehroom").font(t.semibold(20.0)).color(t.text));
                             ui.label(crate::i18n::tr_format!("Version {} — a clean-room, pure-Rust photo library and raw developer.", env!("CARGO_PKG_VERSION")));
                             ui.label(crate::i18n::tr_format!(
                                 "MIT OR Apache-2.0. Fonts: {} (OFL). Icons: original.",
@@ -1179,7 +1179,7 @@ pub fn show(app: &mut LightcraftApp, ctx: &egui::Context) {
                             }
                             ui.add_space(6.0);
                             for (label, url) in [
-                                ("LightCraft website", crate::links::APP_PAGE),
+                                ("Bytehroom website", crate::links::APP_PAGE),
                                 ("Source code on GitHub", crate::links::GITHUB),
                                 ("ArtCraft — more creative apps", crate::links::WEBSITE),
                             ] {
@@ -1424,7 +1424,7 @@ fn sam_by_hand(sam: &lightcraft_engine::segment::Segmenter) -> bool {
 }
 
 /// The model installation guide.
-const SAM_HELP: &str = "https://github.com/storytold/lightcraft/blob/main/docs/ai-masks.md#getting-the-model";
+const SAM_HELP: &str = "https://github.com/goyoaga/bytehroom/blob/main/docs/ai-masks.md#getting-the-model";
 
 /// Open the configured SAM 3 folder itself; revealing a file opens its parent instead.
 pub(crate) fn show_model_folder(app: &mut LightcraftApp) -> Result<serde_json::Value, String> {

@@ -7,9 +7,9 @@
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
   <key>CFBundleDisplayName</key>
-  <string>LightCraft</string>
+  <string>Bytehroom</string>
   <key>CFBundleName</key>
-  <string>LightCraft</string>
+  <string>Bytehroom</string>
   <key>CFBundleExecutable</key>
   <string>LightCraft</string>
   <key>CFBundleIdentifier</key>
@@ -45,7 +45,7 @@
   <!-- Shown by macOS when LightCraft first asks to control Photos (Export > Add to Apple Photos;
        needs the apple-events entitlement in entitlements.plist). -->
   <key>NSAppleEventsUsageDescription</key>
-  <string>LightCraft asks Photos to import the photos you export when you choose Add to Apple Photos in the Export dialog.</string>
+  <string>Bytehroom asks Photos to import the photos you export when you choose Add to Apple Photos in the Export dialog.</string>
   <key>NSHumanReadableCopyright</key>
   <string>Copyright © the LightCraft authors. MIT OR Apache-2.0.</string>
 
@@ -56,7 +56,7 @@
       <key>UTTypeIdentifier</key>
       <string>ai.storyteller.lightcraft.document</string>
       <key>UTTypeDescription</key>
-      <string>LightCraft Document</string>
+      <string>Bytehroom Document</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

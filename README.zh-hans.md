@@ -8,7 +8,7 @@
 </p>
 
 
-<h1 align="center">LightCraft</h1>
+<h1 align="center">Bytehroom</h1>
 
 <h3 align="center">Your photos. Your pixels. Your machine.</h3>
 
@@ -342,7 +342,7 @@ LightCraft 很年轻，而且进展很快。**我们如实所处的位置**（�
 ## Quick start
 
 ```sh
-git clone https://github.com/storytold/lightcraft && cd lightcraft
+git clone https://github.com/goyoaga/bytehroom && cd bytehroom
 cargo run --release -p lightcraft                       # 打开你的图库（~/Pictures/LightCraft Library；新图库会先带演示照片）
 cargo run --release -p lightcraft -- ~/Pictures/trip    # 导入你的照片（扫描文件夹，跳过重复项）
 cargo run --release -p lightcraft -- --memory           # 用完即弃的内存演示会话（不写入任何内容）
